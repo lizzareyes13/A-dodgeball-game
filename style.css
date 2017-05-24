@@ -1,0 +1,13 @@
+body{
+  background-color: gray;
+}
+#board{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  margin-left: 25em;
+  margin-top: 2.5em;
+  border-radius: 1em;
+}
