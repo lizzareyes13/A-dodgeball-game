@@ -11,3 +11,10 @@ body{
   margin-top: 2.5em;
   border-radius: 1em;
 }
+
+#girl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
