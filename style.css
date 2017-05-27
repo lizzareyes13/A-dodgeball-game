@@ -7,15 +7,17 @@ body{
   left: 0;
   width: 500px;
   height: 500px;
-  margin-left: 25em;
+  /*margin-left: 25em;
   margin-top: 2.5em;
-  border-radius: 1em;
+  border-radius: 1em;*/
 }
 
 #girl{
   position: absolute;
-  top: 3rem;
-  left: 25rem;
+  /*top: 3rem;
+  left: 25rem;*/
+  top: 0;
+  left: 0;
   z-index: 2;
   width: 50px;
   height: auto;
