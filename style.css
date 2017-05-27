@@ -14,7 +14,9 @@ body{
 
 #girl{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 3rem;
+  left: 25rem;
   z-index: 2;
+  width: 50px;
+  height: auto;
 }
