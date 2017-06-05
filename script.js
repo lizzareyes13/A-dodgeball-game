@@ -24,7 +24,7 @@ function charMovement(e){
   if(e.keyCode == 39){
     charLeft+=2;
     girl.style.left = charLeft + 'px';
-    if(charLeft >=600){
+    if(charLeft >=455){
       charLeft-=2;
     }
   }
@@ -40,7 +40,7 @@ function charMovement(e){
   if(e.keyCode == 38){
     charUp-=2;
     girl.style.top = charUp + 'px';
-    if(charUp >= 600){
+    if(charUp <=0){
       charUp+=2;
     }
   }
@@ -48,9 +48,11 @@ function charMovement(e){
   if(e.keyCode == 40){
     charUp+=2;
     girl.style.top = charUp +'px';
-    if(charUp >= 600);
-      charUp+=2;
+    if(charUp >= 445){
+      charUp-=2;
   }
+}
+
 }
 
 document.onkeydown = charMovement;
